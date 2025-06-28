@@ -526,62 +526,11 @@
             <p>&copy; 2024 VideoPro. All rights reserved.</p>
             <div class="footer-socials">
                 <a href="https://www.linkedin.com/in/salman6767" aria-label="LinkedIn" target="_blank" class="animated fadeInLeft delay-4"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://wa.me/923176486767" aria-label="WhatsApp" target="_blank" class="animated fadeInRight delay-5"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://wa.me/923176486767" id="whatsapp-float" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+                    <img src="images/whatsapp.png" alt="WhatsApp" class="whatsapp-icon" />
+                </a>
             </div>
         </div>
     </footer>
-    <div id="cartoon-bot-container">
-        <div id="cartoon-bot-avatar" title="Chat with me!">
-            <!-- Inline SVG Cartoon Bot -->
-            <svg id="bot-svg-avatar" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="28" cy="28" r="28" fill="#6c63ff"/>
-                <ellipse cx="28" cy="34" rx="16" ry="10" fill="#fff"/>
-                <ellipse cx="20" cy="28" rx="3.5" ry="4" fill="#fff"/>
-                <ellipse cx="36" cy="28" rx="3.5" ry="4" fill="#fff"/>
-                <ellipse cx="20" cy="28" rx="1.2" ry="1.5" fill="#333"/>
-                <ellipse cx="36" cy="28" rx="1.2" ry="1.5" fill="#333"/>
-                <path d="M22 38 Q28 42 34 38" stroke="#333" stroke-width="2" fill="none"/>
-                <g id="bot-hand">
-                  <ellipse cx="44" cy="18" rx="4" ry="2.2" fill="#fff" stroke="#6c63ff" stroke-width="1.2"/>
-                  <ellipse cx="47" cy="16" rx="1.2" ry="2.2" fill="#fff" stroke="#6c63ff" stroke-width="1.2"/>
-                </g>
-            </svg>
-        </div>
-        <div id="cartoon-bot-chat" class="hidden">
-            <div class="bot-header">
-                <span class="bot-avatar">
-                  <svg width="32" height="32" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="28" cy="28" r="28" fill="#6c63ff"/>
-                    <ellipse cx="28" cy="34" rx="16" ry="10" fill="#fff"/>
-                    <ellipse cx="20" cy="28" rx="3.5" ry="4" fill="#fff"/>
-                    <ellipse cx="36" cy="28" rx="3.5" ry="4" fill="#fff"/>
-                    <ellipse cx="20" cy="28" rx="1.2" ry="1.5" fill="#333"/>
-                    <ellipse cx="36" cy="28" rx="1.2" ry="1.5" fill="#333"/>
-                    <path d="M22 38 Q28 42 34 38" stroke="#333" stroke-width="2" fill="none"/>
-                  </svg>
-                </span>
-                <span class="bot-title">Ask Bot</span>
-                <button id="bot-close-btn" title="Close">&times;</button>
-            </div>
-            <div id="bot-messages" class="bot-messages"></div>
-            <form id="bot-input-form">
-                <input type="text" id="bot-user-input" placeholder="Type your message..." autocomplete="off" />
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </div>
-    <script src="script.js"></script>
-    <style>
-        #bot-svg-avatar #bot-hand {
-          transform-origin: 44px 18px;
-          animation: bot-wave 1.2s infinite linear alternate;
-        }
-        @keyframes bot-wave {
-          0% { transform: rotate(0deg); }
-          30% { transform: rotate(-18deg); }
-          60% { transform: rotate(12deg); }
-          100% { transform: rotate(0deg); }
-        }
-    </style>
 </body>
 </html> 
