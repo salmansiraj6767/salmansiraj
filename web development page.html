@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salman Siraj | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+                <span class="logo-text">Salman Dev</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-icon" id="menuToggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+    <header class="hero-section animated fadeInScale" id="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="animated fadeInUp delay-1">Salman Siraj</h1>
+                <h2 class="animated fadeInLeft delay-2">Web Developer <span class="divider">|</span> UI/UX Specialist</h2>
+                <p class="hero-tagline animated fadeInUp delay-3">I build fast, modern, and responsive websites for businesses and individuals. Clean code, creative design, and personal attention—no agency, just me!</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary animated fadeInLeft delay-4">Let's Work Together</a>
+                    <a href="#offers" class="btn btn-secondary animated fadeInRight delay-5">View Offers</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile.jpeg" alt="Web Developer" class="animated fadeInScale float-anim delay-2" />
+            </div>
+        </div>
+    </header>
+    <section class="about-section alt-bg animated fadeInUp delay-1" id="about">
+        <div class="container">
+            <h2 class="animated fadeInUp delay-2">About Me</h2>
+            <div class="about-content">
+                <div class="about-bio">
+                    <p class="animated fadeInLeft delay-3">I'm Salman, a passionate freelance web developer with 4+ years of experience. I help clients grow online with custom websites, landing pages, and web apps. I handle every project personally, from planning to launch and support.</p>
+                    <ul class="about-highlights">
+                        <li class="animated fadeInUp delay-4"><i class="fa-solid fa-laptop-code"></i> 4+ years of web development</li>
+                        <li class="animated fadeInUp delay-5"><i class="fa-solid fa-user"></i> 100% solo freelancer—no agency, no outsourcing</li>
+                        <li class="animated fadeInUp delay-4"><i class="fa-solid fa-rocket"></i> Fast, reliable delivery</li>
+                        <li class="animated fadeInUp delay-5"><i class="fa-solid fa-handshake"></i> Direct communication & support</li>
+                        <li class="animated fadeInUp delay-4"><i class="fa-solid fa-award"></i> 50+ happy clients</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills-section animated fadeInUp delay-2" id="skills">
+        <div class="container">
+            <h2 class="animated fadeInUp delay-3">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card animated fadeInScale delay-4">
+                    <i class="fa-brands fa-html5 skill-icon"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-card animated fadeInScale delay-5">
+                    <i class="fa-brands fa-css3-alt skill-icon"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-card animated fadeInScale delay-4">
+                    <i class="fa-brands fa-js skill-icon"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-card animated fadeInScale delay-5">
+                    <i class="fa-brands fa-react skill-icon"></i>
+                    <span>React</span>
+                </div>
+                <div class="skill-card animated fadeInScale delay-4">
+                    <i class="fa-brands fa-figma skill-icon"></i>
+                    <span>Figma</span>
+                </div>
+                <div class="skill-card animated fadeInScale delay-5">
+                    <i class="fa-solid fa-mobile-alt skill-icon"></i>
+                    <span>Responsive Design</span>
+                </div>
+                <div class="skill-card animated fadeInScale delay-4">
+                    <i class="fa-solid fa-palette skill-icon"></i>
+                    <span>UI/UX Design</span>
+                </div>
+                <div class="skill-card animated fadeInScale delay-5">
+                    <i class="fa-solid fa-wand-magic-sparkles skill-icon"></i>
+                    <span>Web Animation</span>
+                </div>
+                <div class="skill-card animated fadeInScale delay-4">
+                    <i class="fa-solid fa-universal-access skill-icon"></i>
+                    <span>Accessibility (a11y)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects-section animated fadeInUp delay-3 alt-bg" id="projects">
+        <div class="container">
+            <h2 class="animated fadeInUp delay-4">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animated fadeInScale delay-4">
+                    <div class="project-thumb-wrap">
+                        <a href="https://gamestream-hub.vercel.app" target="_blank">
+                            <img src="images/gamestream-hub-thumb.png" alt="GameStream-Hub Live Thumbnail" class="project-thumb">
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <h3>GameStream-Hub</h3>
+                        <p>A gaming dashboard built with HTML, CSS, and JavaScript.</p>
+                        <div class="project-links">
+                            <a href="https://gamestream-hub.vercel.app" class="btn btn-primary" target="_blank">Live Site</a>
+                            <a href="https://github.com/salmansiraj6767/GameStream-Hub" class="btn btn-secondary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animated fadeInScale delay-5">
+                    <div class="project-thumb-wrap">
+                        <a href="https://salmansiraj.vercel.app" target="_blank">
+                            <img src="images/salmansiraj-thumb.png" alt="This Website Live Thumbnail" class="project-thumb">
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <h3>This Website</h3>
+                        <p>Personal/professional website for Salman Siraj.</p>
+                        <div class="project-links">
+                            <a href="https://salmansiraj.vercel.app" class="btn btn-primary" target="_blank">Live Site</a>
+                            <a href="https://github.com/salmansiraj6767/salmansiraj" class="btn btn-secondary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio-section alt-bg animated fadeInUp delay-3" id="services">
+        <div class="container">
+            <h2 class="animated fadeInUp delay-4">Services</h2>
+            <div class="projects-grid">
+                <div class="project-card animated fadeInScale delay-4">
+                    <div class="project-image"><i class="fa-solid fa-globe"></i></div>
+                    <div class="project-info">
+                        <h3>Custom Websites</h3>
+                        <p>Unique, mobile-friendly websites for businesses, portfolios, and brands. Front-end only.</p>
+                    </div>
+                </div>
+                <div class="project-card animated fadeInScale delay-5">
+                    <div class="project-image"><i class="fa-solid fa-bolt"></i></div>
+                    <div class="project-info">
+                        <h3>Landing Pages</h3>
+                        <p>High-converting, fast, and beautiful landing pages. Front-end design and code only.</p>
+                    </div>
+                </div>
+                <div class="project-card animated fadeInScale delay-4">
+                    <div class="project-image"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <div class="project-info">
+                        <h3>E-commerce UI</h3>
+                        <p>Online store front-ends (Shopify, WooCommerce, custom) — UI/UX only, no backend/payment integration.</p>
+                    </div>
+                </div>
+                <div class="project-card animated fadeInScale delay-5">
+                    <div class="project-image"><i class="fa-solid fa-window-restore"></i></div>
+                    <div class="project-info">
+                        <h3>Web App UI</h3>
+                        <p>Interactive front-end for web apps (React, SPA, dashboards). No backend logic or database.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-offers-section animated fadeInUp delay-3" id="offers">
+        <div class="container">
+            <h2 class="animated fadeInUp delay-4">Service Offers</h2>
+            <div class="service-tabs animated fadeInScale delay-4">
+                <button class="service-tab active" data-tab="website">Website</button>
+                <button class="service-tab" data-tab="landing">Landing Page</button>
+                <button class="service-tab" data-tab="ecommerce">E-commerce</button>
+                <button class="service-tab" data-tab="webapp">Web App</button>
+            </div>
+            <div class="service-offers-content">
+                <!-- Website Offers -->
+                <div class="service-offers-tab animated fadeInUp delay-4" data-tab-content="website">
+                    <div class="offers-grid">
+                        <div class="offer-card animated fadeInScale delay-1">
+                            <div class="offer-badge sale">60% OFF</div>
+                            <div class="offer-price">$200 <span>per site</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-globe"></i> 1-3 pages (front-end only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-bolt"></i> Fast delivery</li>
+                                <li><i class="fa-solid fa-envelope"></i> Email support</li>
+                            </ul>
+                        </div>
+                        <div class="offer-card animated fadeInScale delay-2 recommended">
+                            <div class="offer-badge highlight sale">60% OFF<br>RECOMMENDED<br></div>
+                            <div class="offer-price">$320 <span>per site</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-globe"></i> 4-7 pages (front-end only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-bolt"></i> Performance optimization</li>
+                                <li><i class="fa-solid fa-lock"></i> Basic security (front-end best practices)</li>
+                                <li><i class="fa-solid fa-comments"></i> 1 revision</li>
+                                <li><i class="fa-solid fa-envelope"></i> Priority email support</li>
+                            </ul>
+                        </div>
+                        <div class="offer-card animated fadeInScale delay-3">
+                            <div class="offer-badge sale">60% OFF</div>
+                            <div class="offer-price">$480 <span>per site</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-globe"></i> 8+ pages (front-end only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-bolt"></i> Performance optimization</li>
+                                <li><i class="fa-solid fa-lock"></i> Advanced security (front-end only)</li>
+                                <li><i class="fa-solid fa-comments"></i> 2 revisions</li>
+                                <li><i class="fa-solid fa-star"></i> Priority delivery</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-offer-btn-wrap animated fadeInUp delay-5">
+                        <a href="#contact" class="btn btn-secondary contact-offer-btn">Contact for Pricing</a>
+                    </div>
+                </div>
+                <!-- Landing Page Offers -->
+                <div class="service-offers-tab animated fadeInUp delay-4" data-tab-content="landing" style="display:none;">
+                    <div class="offers-grid">
+                        <div class="offer-card animated fadeInScale delay-1">
+                            <div class="offer-badge sale">60% OFF</div>
+                            <div class="offer-price">$80 <span>per page</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-bolt"></i> 1 landing page (front-end only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-envelope"></i> Email support</li>
+                            </ul>
+                        </div>
+                        <div class="offer-card animated fadeInScale delay-2 recommended">
+                            <div class="offer-badge highlight sale">60% OFF<br>RECOMMENDED<br></div>
+                            <div class="offer-price">$120 <span>per page</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-bolt"></i> 1 landing page (front-end only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-bullhorn"></i> Conversion optimization</li>
+                                <li><i class="fa-solid fa-comments"></i> 1 revision</li>
+                                <li><i class="fa-solid fa-envelope"></i> Priority email support</li>
+                            </ul>
+                        </div>
+                        <div class="offer-card animated fadeInScale delay-3">
+                            <div class="offer-badge sale">60% OFF</div>
+                            <div class="offer-price">$180 <span>per page</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-bolt"></i> 1 landing page (front-end only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-bullhorn"></i> Conversion optimization</li>
+                                <li><i class="fa-solid fa-comments"></i> 2 revisions</li>
+                                <li><i class="fa-solid fa-star"></i> Priority delivery</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-offer-btn-wrap animated fadeInUp delay-5">
+                        <a href="#contact" class="btn btn-secondary contact-offer-btn">Contact for Pricing</a>
+                    </div>
+                </div>
+                <!-- E-commerce Offers -->
+                <div class="service-offers-tab animated fadeInUp delay-4" data-tab-content="ecommerce" style="display:none;">
+                    <div class="offers-grid">
+                        <div class="offer-card animated fadeInScale delay-1">
+                            <div class="offer-badge sale">60% OFF</div>
+                            <div class="offer-price">$400 <span>per store UI</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-cart-shopping"></i> Up to 10 products (UI only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-lock"></i> UI for secure checkout</li>
+                                <li><i class="fa-solid fa-envelope"></i> Email support</li>
+                            </ul>
+                        </div>
+                        <div class="offer-card animated fadeInScale delay-2 recommended">
+                            <div class="offer-badge highlight sale">60% OFF<br>RECOMMENDED<br></div>
+                            <div class="offer-price">$600 <span>per store UI</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-cart-shopping"></i> Up to 30 products (UI only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-lock"></i> UI for secure checkout</li>
+                                <li><i class="fa-solid fa-comments"></i> 1 revision</li>
+                                <li><i class="fa-solid fa-envelope"></i> Priority email support</li>
+                            </ul>
+                        </div>
+                        <div class="offer-card animated fadeInScale delay-3">
+                            <div class="offer-badge sale">60% OFF</div>
+                            <div class="offer-price">$900 <span>per store UI</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-cart-shopping"></i> Unlimited products (UI only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-lock"></i> UI for secure checkout</li>
+                                <li><i class="fa-solid fa-comments"></i> 2 revisions</li>
+                                <li><i class="fa-solid fa-star"></i> Priority delivery</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-offer-btn-wrap animated fadeInUp delay-5">
+                        <a href="#contact" class="btn btn-secondary contact-offer-btn">Contact for Pricing</a>
+                    </div>
+                </div>
+                <!-- Web App Offers -->
+                <div class="service-offers-tab animated fadeInUp delay-4" data-tab-content="webapp" style="display:none;">
+                    <div class="offers-grid">
+                        <div class="offer-card animated fadeInScale delay-1">
+                            <div class="offer-badge sale">60% OFF</div>
+                            <div class="offer-price">$600 <span>per app UI</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-window-restore"></i> 1 custom web app UI (front-end only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-envelope"></i> Email support</li>
+                            </ul>
+                        </div>
+                        <div class="offer-card animated fadeInScale delay-2 recommended">
+                            <div class="offer-badge highlight sale">60% OFF<br>RECOMMENDED<br></div>
+                            <div class="offer-price">$900 <span>per app UI</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-window-restore"></i> 1 custom web app UI (front-end only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-bolt"></i> Performance optimization</li>
+                                <li><i class="fa-solid fa-comments"></i> 1 revision</li>
+                                <li><i class="fa-solid fa-envelope"></i> Priority email support</li>
+                            </ul>
+                        </div>
+                        <div class="offer-card animated fadeInScale delay-3">
+                            <div class="offer-badge sale">60% OFF</div>
+                            <div class="offer-price">$1200 <span>per app UI</span></div>
+                            <ul class="offer-features">
+                                <li><i class="fa-solid fa-window-restore"></i> 1 custom web app UI (front-end only)</li>
+                                <li><i class="fa-solid fa-mobile-alt"></i> Responsive design</li>
+                                <li><i class="fa-solid fa-bolt"></i> Performance optimization</li>
+                                <li><i class="fa-solid fa-lock"></i> Advanced security (front-end only)</li>
+                                <li><i class="fa-solid fa-comments"></i> 2 revisions</li>
+                                <li><i class="fa-solid fa-star"></i> Priority delivery</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-offer-btn-wrap animated fadeInUp delay-5">
+                        <a href="#contact" class="btn btn-secondary contact-offer-btn">Contact for Pricing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials-section animated fadeInUp delay-4" id="testimonials">
+        <div class="container">
+            <h2 class="animated fadeInUp delay-5">Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animated fadeInScale delay-4">
+                    <p>"Salman built my business website from scratch and it looks amazing! Fast, professional, and always available for questions."</p>
+                    <span>- Sarah Malik</span>
+                </div>
+                <div class="testimonial-card animated fadeInScale delay-5">
+                    <p>"I needed a landing page for my product launch and Salman delivered exactly what I wanted. Highly recommended!"</p>
+                    <span>- John Carter</span>
+                </div>
+                <div class="testimonial-card animated fadeInScale delay-4">
+                    <p>"My online store is now fast and easy to manage. Salman handled everything personally and explained every step."</p>
+                    <span>- Priya Singh</span>
+                </div>
+                <div class="testimonial-card animated fadeInScale delay-5">
+                    <p>"Great communication and attention to detail. My web app works perfectly on all devices."</p>
+                    <span>- Alex Johnson</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="certifications-section animated fadeInUp delay-5" id="certifications">
+        <div class="container">
+            <h2 class="animated fadeInUp delay-4">Certifications</h2>
+            <div class="certifications-list">
+                <div class="cert-card placeholder animated fadeInScale delay-5">
+                    <i class="fa-solid fa-certificate"></i>
+                    <span>Google Mobile Web Specialist, FreeCodeCamp Responsive Web Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section animated fadeInUp delay-4" id="contact">
+        <div class="container contact-split">
+            <div class="contact-form-card animated fadeInLeft delay-5">
+                <h2>Contact Me</h2>
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required class="animated fadeInScale delay-4" />
+                    <input type="email" name="email" placeholder="Your Email" required class="animated fadeInScale delay-5" />
+                    <textarea name="message" placeholder="Your Message" required class="animated fadeInScale delay-4"></textarea>
+                    <button type="submit" class="btn btn-primary animated fadeInRight delay-5">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info-card animated fadeInRight delay-5">
+                <h3>Contact Details</h3>
+                <ul>
+                    <li class="animated fadeInUp delay-4"><i class="fa-solid fa-envelope"></i> <a href="mailto:salmansirajeditor@gmail.com">salmansirajeditor@gmail.com</a></li>
+                    <li class="animated fadeInUp delay-5"><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/salman6767" target="_blank">LinkedIn</a></li>
+                    <li class="animated fadeInUp delay-4"><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/923176486767" target="_blank">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer animated fadeInUp delay-5">
+        <div class="container footer-content">
+            <p>&copy; 2024 Salman Siraj. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/salman6767" aria-label="LinkedIn" target="_blank" class="animated fadeInLeft delay-4"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://wa.me/923176486767" aria-label="WhatsApp" target="_blank" class="animated fadeInRight delay-5"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+    <a href="https://wa.me/923176486767" id="whatsapp-float" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+        <img src="images/whatsapp.png" alt="WhatsApp" class="whatsapp-icon" />
+    </a>
+    <script src="script.js"></script>
+</body>
+</html> 
